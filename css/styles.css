@@ -2079,7 +2079,7 @@ p:last-child { margin-bottom: 0; }
 
   .hero { min-height: 85vh; overflow: hidden; }
   .hero h1 { font-size: 36px; white-space: normal; }
-  .hero-subtitle { font-size: 16px; }
+  .hero-subheadline { font-size: 16px; line-height: 1.4; }
   .hero-content { padding-left: 24px; padding-right: 24px; width: 100%; box-sizing: border-box; }
   .hero-actions { flex-direction: column; }
   .hero-actions .btn { width: 100%; justify-content: center; }
