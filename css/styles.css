@@ -2077,8 +2077,10 @@ p:last-child { margin-bottom: 0; }
   .container, .container-sm { padding: 0 20px; }
   .nav-container { padding: 0 20px; }
 
-  .hero { min-height: 85vh; }
-  .hero h1 { font-size: 38px; }
+  .hero { min-height: 85vh; overflow: hidden; }
+  .hero h1 { font-size: 36px; white-space: normal; }
+  .hero-subtitle { font-size: 16px; }
+  .hero-content { padding-left: 24px; padding-right: 24px; width: 100%; box-sizing: border-box; }
   .hero-actions { flex-direction: column; }
   .hero-actions .btn { width: 100%; justify-content: center; }
 
@@ -2118,6 +2120,10 @@ p:last-child { margin-bottom: 0; }
 
   .trust-bar { grid-template-columns: 1fr 1fr; }
   .footer-container { grid-template-columns: 1fr; padding: 0 20px; }
+
+  /* Intro / "Who We Are" section spacing */
+  .intro-section { padding-top: 56px; }
+  .intro-text { padding: 40px 24px 48px; }
 }
 
 /* ============================================================
