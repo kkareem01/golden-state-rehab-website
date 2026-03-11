@@ -16,7 +16,14 @@
   <div class="nav-container">
     <a href="../index.html" class="nav-logo" aria-label="Golden State Rehab home"><img src="../images/logo-icon.png" alt="" class="nav-logo-icon-img" aria-hidden="true"><span class="nav-logo-wordmark"><strong>Golden State</strong> Rehab</span></a>
     <ul class="nav-links">
-      <li><a href="../about.html">About</a></li>
+      <li class="has-dropdown">
+      <a href="../about.html">About Us <i data-lucide="chevron-down"></i></a>
+      <div class="dropdown">
+        <a href="../about.html">Our Story</a>
+        <a href="../index.html#facility">Our Facility</a>
+        <a href="../about.html">Why Golden State Rehab</a>
+      </div>
+    </li>
       <li class="has-dropdown"><a href="index.html" class="active">Programs <i data-lucide="chevron-down"></i></a><div class="dropdown"><a href="index.html" class="dropdown-all" role="menuitem">All Programs</a>
           <a href="php.html">Partial Hospitalization (PHP)</a><a href="iop.html">Intensive Outpatient (IOP)</a><a href="telehealth.html">Online &amp; Telehealth</a><a href="individual-therapy.html">Individual Therapy</a><a href="group-therapy.html">Group Therapy</a><a href="medication-management.html" class="active">Medication Management</a><a href="holistic-therapies.html">Holistic Therapies</a><a href="alumni.html">Alumni Program</a></div></li>
       <li class="has-dropdown"><a href="../treatments/index.html">Treatments <i data-lucide="chevron-down"></i></a><div class="dropdown dropdown-wide">
@@ -31,7 +38,10 @@
   </div>
 </nav>
 <nav class="nav-mobile" aria-label="Mobile navigation">
-  <a href="../about.html">About</a>
+  <a href="../about.html">About Us</a>
+  <a href="../about.html" class="nav-mobile-sub">Our Story</a>
+  <a href="../index.html#facility" class="nav-mobile-sub">Our Facility</a>
+  <a href="../about.html" class="nav-mobile-sub">Why Golden State Rehab</a>
   <a href="index.html" class="active">Programs</a>
   <a href="../treatments/index.html">Treatments</a>
   <a href="../faq.html">FAQ</a>
