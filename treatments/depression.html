@@ -12,11 +12,12 @@
   <meta property="og:image" content="https://www.goldenstate-rehab.com/images/logo-icon.png">
   <meta property="og:url" content="https://www.goldenstate-rehab.com/treatments/depression.html">
   <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@GoldenStateRehab">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="https://unpkg.com/lucide@1.0.1/dist/umd/lucide.min.js"></script>
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -66,6 +67,12 @@
     <p class="page-hero-sub">Compassionate, evidence-based care to help you reclaim your life from depression</p>
   </div>
 </section>
+
+<div class="medical-review-byline">
+  <i data-lucide="shield-check"></i>
+  Medically reviewed by <a href="../team.html">Dr. Maria Torres, Psy.D.</a> — Clinical Director, Golden State Rehab
+  <span class="review-date">Updated March 2026</span>
+</div>
 
 <section class="section section-white">
   <div class="container">
@@ -171,10 +178,20 @@
   },
   "openingHours": "Mo-Fr 09:00-17:00",
   "foundingDate": "2026",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.0447,
+    "longitude": -118.4308
+  },
   "areaServed": {
     "@type": "City",
     "name": "Los Angeles"
-  }
+  },
+  "sameAs": [
+    "https://www.facebook.com/GoldenStateRehab",
+    "https://www.instagram.com/goldenstaterehab",
+    "https://www.linkedin.com/company/golden-state-rehab"
+  ]
 }
 </script>
 <script type="application/ld+json">
@@ -185,6 +202,59 @@
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.goldenstate-rehab.com/"},
     {"@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://www.goldenstate-rehab.com/treatments/"},
     {"@type": "ListItem", "position": 3, "name": "Depression Treatment"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalCondition",
+  "name": "Major Depressive Disorder",
+  "alternateName": "Depression",
+  "description": "A mood disorder causing persistent feelings of sadness, hopelessness, and loss of interest that affects daily functioning.",
+  "signOrSymptom": [
+    {
+      "@type": "MedicalSignOrSymptom",
+      "name": "Persistent sadness or empty mood"
+    },
+    {
+      "@type": "MedicalSignOrSymptom",
+      "name": "Loss of interest in activities"
+    },
+    {
+      "@type": "MedicalSignOrSymptom",
+      "name": "Changes in appetite or weight"
+    },
+    {
+      "@type": "MedicalSignOrSymptom",
+      "name": "Sleep disturbances"
+    },
+    {
+      "@type": "MedicalSignOrSymptom",
+      "name": "Fatigue or loss of energy"
+    },
+    {
+      "@type": "MedicalSignOrSymptom",
+      "name": "Difficulty concentrating"
+    }
+  ],
+  "possibleTreatment": [
+    {
+      "@type": "MedicalTherapy",
+      "name": "Cognitive Behavioral Therapy (CBT)"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Medication Management"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Behavioral Activation"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Holistic Therapies"
+    }
   ]
 }
 </script>
